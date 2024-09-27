@@ -1,0 +1,1 @@
+python gerar_analise.py MAR ABR MAI JUN JUL
