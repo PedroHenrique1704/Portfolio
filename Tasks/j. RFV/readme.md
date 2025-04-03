@@ -1,14 +1,14 @@
-# Arvores de Regressão
+# O que é RFV?  
 
-Na Task *"Arvores de regressao"* eu acabo utilizando de 2 banco de dados diferentes
+RFV (Recência, Frequência e Valor) é uma metodologia utilizada para segmentação de clientes com base em três métricas principais:  
 
-1.  Gorjeta *(nativo do pandas)*
-2.  Mercado imobiliario
+- **Recência (R)**: Quanto tempo se passou desde a última compra do cliente.  
+- **Frequência (F)**: Quantas vezes o cliente realizou compras em um determinado período.  
+- **Valor (V)**: Quanto o cliente gastou no total.  
 
-Essas *Arvores de regressão* foram um dos meus primeiros contatos com: 
+Essa abordagem ajuda a identificar os clientes mais engajados e lucrativos, permitindo estratégias de marketing mais eficientes e personalizadas.  
 
-1. CCP_alpha
-2. Matriz de correlação
-3. Regressão linear simples e multipla
-4. Log
-5. R²
+*  **Clientes com alta recência, frequência e valor** são geralmente os mais valiosos.  
+*  **Clientes com baixa frequência e valor** podem precisar de estratégias de reativação.  
+
+O RFV é amplamente utilizado em análise de comportamento do consumidor, CRM e campanhas de retenção.  
