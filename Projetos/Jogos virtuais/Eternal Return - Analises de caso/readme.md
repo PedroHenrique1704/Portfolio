@@ -1,10 +1,17 @@
-# Eternal Return - Analises de caso
+# Eternal Return - Análises de Caso  
 
-Essa pasta se limita a alguns estudos que eu realizei refente ao jogo **Eternal Return: Black Survival** com propósito de auxiliar a comunidade do mesmo, são analises
-simples pois o jogo não te fornece as informações dentro dele.
+Esta pasta contém estudos e análises que realizei sobre o jogo **Eternal Return: Black Survival**, com o objetivo de **auxiliar a comunidade** ao fornecer informações que o jogo não disponibiliza diretamente. As análises aqui presentes são baseadas em observações, testes e inferências.  
 
+## O que é Eternal Return?  
 
-* O que é Eternal Return?
+**Eternal Return** é um jogo **Battle Royale** com elementos de **MOBA**, inspirado em títulos como **League of Legends** e **Dota**.  
 
-Um jogo *Battle Royale* com aspectos tirados de *mobas* como **League of Legends** e **DoTa**, em que você escolhe um personagem já existente com 4 habilidades e, junto de
-outros 2 jogadores com personagens diferentes no seu time você deve ser o último time a sobreviver em uma ilha chamada de **Lumia**.
+No jogo, cada jogador escolhe um **personagem pré-definido** com **quatro habilidades únicas** e, em equipes de até três pessoas, disputa para ser o **último time sobrevivente** na ilha de **Lumia**.  
+
+As análises desta pasta buscam aprofundar o entendimento de mecânicas internas, como **redução de defesa**, **progressão de atributos** e **estratégias de otimização**, para ajudar os jogadores a tomarem decisões mais informadas.  
+
+---
+
+* [Site Oficial de Eternal Return](https://playeternalreturn.com/main)
+
+* [Eternal Return na STEAM](https://store.steampowered.com/app/1049590/Eternal_Return/)
