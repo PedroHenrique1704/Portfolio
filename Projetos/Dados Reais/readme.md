@@ -1,3 +1,8 @@
-# Apresentações
+# Dados Reais  
 
-Na pasta **Apresentações** você vera notebooks com um maior nível de complexidade e *storytelling*, dividio em diferentes vertentes.
+Pasta contendo projetos baseados em **dados concretos e verificáveis**, analisando fenômenos do mundo real com embasamento estatístico e científico.  
+
+- `Mercado Imobiliário de Melbourne`  
+  *(Análise exploratória e modelagem preditiva dos preços de imóveis em Melbourne, utilizando variáveis estruturais e macroeconômicas.)*  
+
+Consulte o README da subpasta para detalhes específicos.  
