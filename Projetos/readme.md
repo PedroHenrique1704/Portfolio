@@ -1,4 +1,4 @@
-# 📂 Projetos  
+# Projetos  
 
 Essa pasta contém projetos mais elaborados e aprofundados, organizados em três categorias principais:  
 
