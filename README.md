@@ -1,18 +1,23 @@
-# Esse é meu portfólio
+#  Meu Portfólio  
 
-Esse portfólio consiste principalmente em 2 pastas, a pasta *Apresentações* e a pasta *Tasks*.
+Este portfólio é organizado em duas principais pastas: **Projetos** e **Tasks**. Cada uma delas reflete diferentes aspectos do meu trabalho e evolução como programador e cientista de dados.  
 
-* Os notebooks na pasta **Apresentações**:
-1. Possuem trabalho mais elaborados.
-2. Trabalhos que possuem um certo nível de *storytelling*.
-3. Trabalhos que buscam um problema e como resolve-lo.
-4. Trabalhos que mostram ao leitor a maneira que foi utilizada e o raciocínio por trás da resolução.
+##  Estrutura  
 
+### **Projetos**  
+Os notebooks nesta pasta representam trabalhos mais completos e elaborados, com foco em:  
+✔️ Uma abordagem estruturada para resolver problemas reais ou hipotéticos.  
+✔️ Aplicação de *storytelling* para tornar a análise mais envolvente e compreensível.  
+✔️ Demonstração clara do raciocínio por trás das soluções propostas.  
+✔️ Documentação e organização para facilitar a reprodução e interpretação dos resultados.  
 
-* Os notebooks na pasta **Tasks**:
-1. Possuem trabalhos mais curtos.
-2. Trabalhos que demonstram 1 ou 2 competências isoladas.
-3. Os *notebooks* estão divididos em pastas e com nomes diretos para melhor visualização.
+### **Tasks**  
+Aqui estão notebooks mais curtos e objetivos, voltados para a demonstração de habilidades específicas:  
+✔️ Exemplos práticos de técnicas ou conceitos isolados.  
+✔️ Tarefas que exploram 1 ou 2 competências específicas.  
+✔️ Organização por pastas e nomes diretos para facilitar a navegação.  
 
+## Propósito  
+Cada notebook reflete não apenas meu conhecimento técnico, mas também minha jornada de aprendizado e crescimento na área de Ciência de Dados e Programação.  
 
-Os notebooks remetem diretamente tanto o meu conhecimento quanto a minha evolução como programador e cientista de dados.
+Fique à vontade para explorar e me chamar para trocar ideias! 😊  
