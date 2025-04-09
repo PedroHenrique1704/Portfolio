@@ -17,6 +17,12 @@ Aqui estão notebooks mais curtos e objetivos, voltados para a demonstração de
 ✔️ Tarefas que exploram 1 ou 2 competências específicas.  
 ✔️ Organização por pastas e nomes diretos para facilitar a navegação.  
 
+### **Certificações**
+Esta pasta reúne um resumo das minhas formações e cursos concluídos na área:  
+ ✔️ Certificados de graduação, especializações ou formações completas.  
+ ✔️ Cursos relevantes com foco em programação, ciência de dados e áreas correlatas.  
+ ✔️ Links ou referências adicionais para quem quiser saber mais sobre os conteúdos abordados.
+ 
 ## Propósito  
 Cada notebook reflete não apenas meu conhecimento técnico, mas também minha jornada de aprendizado e crescimento na área de Ciência de Dados e Programação.  
 
