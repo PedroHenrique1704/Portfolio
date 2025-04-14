@@ -33,7 +33,7 @@
 ### 💻 Profissão: Cientista de Dados — [EBAC](https://ebaconline.com.br/)   
 📚 **Nível: Curso Profissionalizante**  
 📅 **Conclusão: 09 de abril de 2025**   
-⏱️ **Duração: 60 horas de aula — 56 Módulos — 87 atividades**  
+⏱️ **Duração: 60 horas de aula — 56 Módulos — 87 atividades - 10 meses**  
 
 **Competências desenvolvidas:**  
 ✔️ Python aplicado à análise de dados  
