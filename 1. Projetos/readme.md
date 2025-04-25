@@ -1,7 +1,6 @@
 # Projetos  
 
-Essa pasta contém projetos mais elaborados e aprofundados, organizados em três categorias principais:  
-
+Essa pasta contém projetos mais elaborados e aprofundados, organizados em duas categorias principais:  
 
 ## ✅ Projetos Reais  
 Projetos baseados em **dados concretos e verificáveis**, extraídos de fontes confiáveis. Aqui, a preocupação não é apenas com as técnicas aplicadas, mas também com a **interpretação dos resultados no contexto real**.  
