@@ -88,7 +88,25 @@ Distribuição de clientes por idade e gênero.
    - Python (Jupyter Notebook)
    - Git para controle de versão
 
----
+
+
+## Dashboard
+
+* Acesse o [Dashboard](https://app.powerbi.com/groups/me/reports/8ef11eb9-6638-469a-a10d-ac4890ebcf2e/40e7cacb3ce70ec76173?experience=power-bi)
+
+### Imagem 1: 
+* **Filtros**: Layout inicial, sem filtros
+
+![download](https://github.com/user-attachments/assets/754244fc-0a9e-4e99-808a-859214b57673)
+
+### Imagem 2: 
+* **Filtros**: Clientes do sexo feminino que frequentaram a academia no horario entre 16:00h e 18:00h em 2 ou 3 dias diferentes durante a semana
+
+![download](https://github.com/user-attachments/assets/4bf2f97f-a01c-4772-9da4-6f646882d938)
+
+
+
+
 
 * Data de Conclusão: Maio/2025  
 * Linkedin: [Pedro Henrique](https://www.linkedin.com/in/phcf/)
