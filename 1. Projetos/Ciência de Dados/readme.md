@@ -1,4 +1,4 @@
-# Dados Reais  
+# Projetos
 
 Pasta contendo projetos baseados em **dados concretos e verificáveis**, analisando fenômenos do mundo real com embasamento estatístico e científico.  
 
