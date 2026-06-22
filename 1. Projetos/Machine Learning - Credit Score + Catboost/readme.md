@@ -1,96 +1,85 @@
-# Análise de Frequência em Academia - Power BI Dashboard (Projeto Acadêmico)
+# Credit Score Prediction - Machine Learning Project
 
-* Acesse o [Dashboard](https://app.powerbi.com/groups/me/reports/8ef11eb9-6638-469a-a10d-ac4890ebcf2e/40e7cacb3ce70ec76173?experience=power-bi)
+## Descrição do Projeto
+Projeto focado na implementação de um sistema de machine learning para análise de crédito, utilizando programação estruturada com:
 
-## Disclaimer
-**Este é um projeto acadêmico desenvolvido para fins educacionais.**  
-* **Nenhum dado real foi utilizado** - Todos os conjuntos de dados são fictícios  
-* **A empresa analisada não existe** - Criada apenas para simulação acadêmica  
-* **As conclusões não representam situações reais** - Análises puramente demonstrativas
+- **Classes especializadas** para pré-processamento de dados  
+- **Funções modulares** para geração de gráficos e métricas  
+- **Pipeline completo** de tratamento de dados e modelagem  
+
+
+## ⚙️ Instalação
+1. Instale as dependências:
+```bash
+pip install -r requirements.txt
+```
+
 
 ## Visão Geral
-Este projeto tem como objetivo transformar dados brutos de check-ins em uma 
-academia em insights acionáveis por meio de um dashboard interativo no Power BI. 
-O relatório é projetado para ser atualizado semanalmente, auxiliando a gestão na 
-identificação de padrões de frequência, otimização de horários de aulas e melhoria na 
-experiência dos clientes.
+Sistema de machine learning para identificação de potenciais maus pagadores (credit scoring) baseado em dados históricos de clientes. O projeto foca na construção de uma solução robusta com:
 
-## Colunas do dataset *(já tratadas)*
+- **Arquitetura modular** utilizando classes e funções especializadas
+- Pipeline completo de processamento de dados e visualizações
+- Implementação com CatBoost para máxima eficiência
 
-| Variável               | Tipo     | O que ela faz              | - | Variável                  | Tipo     | O que ela faz              |
-|------------------------|----------|----------------------------|---|---------------------------|----------|----------------------------|
-| gender                 | object   | Gênero do cliente          | - | birthday                  | object   | Data de nascimento         |
-| Age                    | int64    | Idade calculada do cliente| - | abonoment_type            | int64    | Tipo de plano              |
-| monthly_fee            | int32    | Valor mensal do plano     | - | commitment                | int32    | Grau de comprometimento    |
-| visit_per_week         | int64    | Visitas por semana        | - | Mon                       | bool     | Vai à academia na segunda  |
-| Tue                    | bool     | Vai à academia na terça   | - | Wed                       | bool     | Vai à academia na quarta   |
-| Thu                    | bool     | Vai à academia na quinta  | - | Fri                       | bool     | Vai à academia na sexta    |
-| Sat                    | bool     | Vai à academia no sábado  | - | Sun                       | bool     | Vai à academia no domingo  |
-| avg_time_check_in      | object   | Horário médio de entrada  | - | avg_time_check_out        | object   | Horário médio de saída     |
-| avg_time_in_gym        | int64    | Tempo médio na academia   | - | attend_group_lesson       | bool     | Participa de aulas em grupo|
-| Kickboxen              | bool     | Frequenta aula de kickboxing | - | BodyPump                 | bool     | Frequenta aula de BodyPump |
-| XCore                  | bool     | Frequenta aula de XCore   | - | Yoga                      | bool     | Frequenta aula de Yoga     |
-| Running                | bool     | Frequenta corrida          | - | Pilates                   | bool     | Frequenta aula de Pilates  |
-| LesMiles               | bool     | Frequenta aula de LesMiles| - | HIT                       | bool     | Frequenta aula de HIT      |
-| Zumba                  | bool     | Frequenta aula de Zumba   | - | BodyBalance               | bool     | Frequenta aula de BodyBalance |
-| Spinning               | bool     | Frequenta aula de Spinning| - | no_group_lesson           | bool     | Não participa de aulas em grupo |
-| lemon                  | bool     | Prefere sabor limão       | - | berry_boost               | bool     | Prefere sabor frutas vermelhas |
-| black_currant          | bool     | Prefere sabor cassis      | - | orange                    | bool     | Prefere sabor laranja      |
-| coconut_pineapple      | bool     | Prefere sabor coco/abacaxi| - | passion_fruit             | bool     | Prefere sabor maracujá     |
-| no_fav_drink           | bool     | Não tem bebida favorita   | - | drink_abo                 | bool     | Tem assinatura de bebidas  |
-| personal_training      | bool     | Usa personal trainer       | - | name_personal_trainer     | object   | Nome do personal trainer   |
-| uses_sauna             | bool     | Usa a sauna               | - | //                        | //       | //                         |
+### Justificativa para uso do CatBoost
+| Vantagem | Descrição |
+|----------|-----------|
+| **Nativo com dados categóricos** | Processa colunas categóricas sem pré-processamento |
+| **Alto desempenho** | Algoritmo gradient boosting otimizado para velocidade |
+| **Resistente a overfitting** | Mecanismos internos de regularização |
+| **Interpretabilidade** | Gera importância de features automaticamente |
+| **Suporte a texto** | Processamento integrado de features textuais |
 
+### Dataset Structure
+Dados obtidos do [Kaggle](https://www.kaggle.com/datasets/parisrohan/credit-score-classification) contendo:
 
+#### Tabela de Features
+| Nome da Coluna | Descrição/Função |
+|----------------|------------------|
+| ID | Identificador único do registro |
+| Customer_ID | Identificador único do cliente |
+| Month | Mês de referência dos dados |
+| Name | Nome do cliente |
+| Age | Idade do cliente |
+| SSN | Número do seguro social |
+| Occupation | Profissão do cliente |
+| Annual_Income | Renda anual |
+| Monthly_Inhand_Salary | Salário líquido mensal |
+| Num_Bank_Accounts | Número de contas bancárias |
+| Num_Credit_Card | Número de cartões de crédito |
+| Interest_Rate | Taxa de juros média |
+| Num_of_Loan | Número de empréstimos ativos |
+| Type_of_Loan | Tipos de empréstimos contratados |
+| Delay_from_due_date | Dias de atraso em pagamentos |
+| Num_of_Delayed_Payment | Número de pagamentos atrasados |
+| Changed_Credit_Limit | Variação no limite de crédito |
+| Num_Credit_Inquiries | Consultas recentes ao crédito |
+| Credit_Mix | Mix de produtos de crédito |
+| Outstanding_Debt | Dívida total pendente |
+| Credit_Utilization_Ratio | Utilização do limite de crédito |
+| Credit_History_Age | Tempo de histórico creditício |
+| Payment_of_Min_Amount | Paga apenas valor mínimo? |
+| Total_EMI_per_month | Parcelamentos mensais totais |
+| Amount_invested_monthly | Valor mensal investido |
+| Payment_Behaviour | Padrão de comportamento de pagamento |
+| Monthly_Balance | Saldo mensal disponível |
+| Credit_Score | Target: Good/Standard/Poor |
 
+### Abordagem Técnica
+1. **Pré-processamento inteligente** com tratamento de:
+   - Valores faltantes
+   - Dados categóricos/textuais
+   - Normalização de features numéricas <br><br>
 
-## Passos do Projeto
+2. **Engenharia de features** para criar indicadores adicionais 
 
-### Coleta de Dados
+3. **Modelagem com CatBoost** utilizando:
+   - Validação cruzada
+   - Early stopping
+   - Otimização de hiperparâmetros <br><br>
 
-Download do dataset original no [Kaggle](https://www.kaggle.com/datasets/ka66ledata/gym-membership-dataset).
-
-### Tratamento no Python (Jupyter Notebook)
-
-* Limpeza de dados ausentes.
-
-* Criação de colunas `Booleanas` para:
-  * Dias da semana
-  * Bebidas favoritas
-
-* Insights iniciais
-
-### Desenvolvimento no Power BI
-
-* Transformação de colunas (Unpivot para dias da semana e aulas).
-
-* Criação de faixas etárias e horárias.
-
-* Criação de métricas e visualizações interativas.
-
-* Implementação de filtros dinâmicos (gênero, faixa etária, horários).
-
-* Design do dashboard para atualização semanal.
-
-### Insights Principais
-
-Horários de pico de movimento.
-
-Aulas mais e menos frequentadas.
-
-Comparativo entre planos (*Premium vs. Standard*).
-
-Distribuição de clientes por idade e gênero.
-
-
-## **Ferramentas Utilizadas:**
-   - Power BI Desktop
-   - Python (Jupyter Notebook)
-   - Git para controle de versão
-
----
-
-* Data de Conclusão: Maio/2025  
-* Linkedin: [Pedro Henrique](https://www.linkedin.com/in/phcf/)
-
-> *Your mind is the strongest and most valuable muscle you can grow in the gym*
+4. **Análise de resultados** com:
+   - Métricas de classificação multiclasse
+   - Matriz de confusão
+   - Curvas de aprendizado
