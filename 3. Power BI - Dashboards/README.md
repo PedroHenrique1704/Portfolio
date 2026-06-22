@@ -1,23 +1,26 @@
-#  Meu Portfólio  
+# Dashboards Power BI
 
-Este portfólio é organizado em duas principais pastas: **Projetos** e **Tasks**. Cada uma delas reflete diferentes aspectos do meu trabalho e evolução como programador e cientista de dados.  
+* Bem-vindo à minha coleção de dashboards desenvolvidos em Power BI.
 
-##  Estrutura  
+Esta pasta reúne projetos voltados para análise de dados, visualização de informações e storytelling, explorando diferentes áreas de negócio e cenários analíticos. Cada dashboard foi construído com foco não apenas na apresentação dos dados, mas também na transformação de informações em insights claros e acionáveis.
 
-### **Projetos**  
-Os notebooks nesta pasta representam trabalhos mais completos e elaborados, com foco em:  
-✔️ Uma abordagem estruturada para resolver problemas reais ou hipotéticos.  
-✔️ Aplicação de *storytelling* para tornar a análise mais envolvente e compreensível.  
-✔️ Demonstração clara do raciocínio por trás das soluções propostas.  
-✔️ Documentação e organização para facilitar a reprodução e interpretação dos resultados.  
+## Estrutura de Cada Projeto
 
-### **Tasks**  
-Aqui estão notebooks mais curtos e objetivos, voltados para a demonstração de habilidades específicas:  
-✔️ Exemplos práticos de técnicas ou conceitos isolados.  
-✔️ Tarefas que exploram 1 ou 2 competências específicas.  
-✔️ Organização por pastas e nomes diretos para facilitar a navegação.  
+Cada dashboard possui sua própria documentação contendo:
 
-## Propósito  
-Cada notebook reflete não apenas meu conhecimento técnico, mas também minha jornada de aprendizado e crescimento na área de Ciência de Dados e Programação.  
+1. Desenvolvimento de dashboards interativos e intuitivos;
+2. Aplicação de boas práticas de visualização de dados;
+3. Criação de indicadores e métricas relevantes;
+4. Uso de recursos do Power BI, DAX e Power Query;
+5. Construção de narrativas visuais para apoiar a tomada de decisão.
 
-> Fique à vontade para explorar e me chamar para trocar ideias! 
+## Estrutura para cada Dashboard apresentado:
+
+1. Link para visualização online
+2. Processo de Construção
+3. Uma explicação sobre as decisões tomadas durante o desenvolvimento,
+4. Paleta de Cores
+5 Capturas de Tela
+
+
+> O objetivo destes projetos é demonstrar não apenas conhecimentos técnicos em Power BI, mas também a capacidade de transformar dados em soluções visuais que apoiem a tomada de decisão.
