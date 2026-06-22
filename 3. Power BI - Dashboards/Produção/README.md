@@ -2,6 +2,10 @@
 
 [Visualização WEB](https://app.powerbi.com/view?r=eyJrIjoiMGE0ZWZjMmQtMmNmZS00NWZlLWI2OWMtNzYyYTJjNTQ0N2IxIiwidCI6IjJmNGMxYjM3LTk1MGEtNGRhZS05Njc1LWI3MTk4Y2E0NDVhZCJ9)
 
+<img width="1079" height="608" alt="image" src="https://github.com/user-attachments/assets/4e8d8317-217a-4f75-a452-88b6f9f0bb55" />
+
+
+
 ## Objetivo
 
 * Este dashboard foi desenvolvido para fornecer uma visão consolidada do desempenho produtivo dos colaboradores da empresa, permitindo acompanhar a produção, a qualidade das entregas e a utilização do tempo de trabalho.
