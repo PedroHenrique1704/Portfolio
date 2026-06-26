@@ -18,12 +18,12 @@ Aqui estão notebooks mais curtos e objetivos, voltados para a demonstração de
 ✔️ Organização por pastas e nomes diretos para facilitar a navegação.
 
 ### **Power BI - Dashboards**
-Aqui estão dashboards desenvolvidos para diferentes cenários de negócio, com foco na transformação de dados em informações estratégicas:
-✔️ Construção de dashboards interativos voltados para análise e tomada de decisão.
-✔️ Definição de métricas e KPIs alinhados aos objetivos do negócio.
-✔️ Demonstração do processo analítico utilizado para transformar dados em insights acionáveis.
-✔️ Exploração de diferentes abordagens visuais, layouts e experiências de navegação.
-✔️ Documentação do raciocínio por trás das escolhas de modelagem, visualização e interpretação dos resultados.
+Aqui estão dashboards desenvolvidos para diferentes cenários de negócio, com foco na transformação de dados em informações estratégicas:  
+✔️ Construção de dashboards interativos voltados para análise e tomada de decisão.  
+✔️ Definição de métricas e KPIs alinhados aos objetivos do negócio.  
+✔️ Demonstração do processo analítico utilizado para transformar dados em insights acionáveis.  
+✔️ Exploração de diferentes abordagens visuais, layouts e experiências de navegação.  
+✔️ Documentação do raciocínio por trás das escolhas de modelagem, visualização e interpretação dos resultados.  
 
 
 ## Propósito  
