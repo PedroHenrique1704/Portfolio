@@ -2,6 +2,7 @@
 
 [Visualização WEB](https://app.powerbi.com/view?r=eyJrIjoiNjYwZGI5ZWItNThiMS00YjI2LTg3OTctZmQ0MGZiNmU1NzNkIiwidCI6IjJmNGMxYjM3LTk1MGEtNGRhZS05Njc1LWI3MTk4Y2E0NDVhZCJ9)
 
+<img width="1293" height="727" alt="image" src="https://github.com/user-attachments/assets/38c8ee77-f92e-4502-bca1-5d2c6f5ea9bf" />
 
 
 ## Objetivo

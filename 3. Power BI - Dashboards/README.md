@@ -24,3 +24,21 @@ Cada dashboard possui sua própria documentação contendo:
 
 
 > O objetivo destes projetos é demonstrar não apenas conhecimentos técnicos em Power BI, mas também a capacidade de transformar dados em soluções visuais que apoiem a tomada de decisão.
+
+
+
+
+# Dashboards
+
+### Produção
+
+[Visualização WEB](https://app.powerbi.com/view?r=eyJrIjoiMGE0ZWZjMmQtMmNmZS00NWZlLWI2OWMtNzYyYTJjNTQ0N2IxIiwidCI6IjJmNGMxYjM3LTk1MGEtNGRhZS05Njc1LWI3MTk4Y2E0NDVhZCJ9)
+
+<img width="1079" height="608" alt="image" src="https://github.com/user-attachments/assets/188018dc-e4d2-4f15-a895-67d1c7358ef9" />
+
+### Vendas
+
+[Visualização WEB](https://app.powerbi.com/view?r=eyJrIjoiNjYwZGI5ZWItNThiMS00YjI2LTg3OTctZmQ0MGZiNmU1NzNkIiwidCI6IjJmNGMxYjM3LTk1MGEtNGRhZS05Njc1LWI3MTk4Y2E0NDVhZCJ9)
+
+<img width="1293" height="727" alt="image" src="https://github.com/user-attachments/assets/1b55d5e1-065c-41b0-9b35-c6a72c22ea45" />
+
