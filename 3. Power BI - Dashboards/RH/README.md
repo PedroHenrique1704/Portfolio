@@ -1,42 +1,42 @@
-# Dashboard de Vendas
+# Dashboard de Recursos Humanos
 
-[Visualização WEB](https://app.powerbi.com/view?r=eyJrIjoiNjYwZGI5ZWItNThiMS00YjI2LTg3OTctZmQ0MGZiNmU1NzNkIiwidCI6IjJmNGMxYjM3LTk1MGEtNGRhZS05Njc1LWI3MTk4Y2E0NDVhZCJ9)
+[Visualização WEB](https://app.powerbi.com/view?r=eyJrIjoiOTAyYmZkYzMtYWQ5Ny00ZDk3LWI3ZDQtZGViMDkwOGQxODUwIiwidCI6IjJmNGMxYjM3LTk1MGEtNGRhZS05Njc1LWI3MTk4Y2E0NDVhZCJ9)
 
-
+<img width="1294" height="729" alt="7a83d645-7dac-4cb1-a604-c4a8b2639bfb" src="https://github.com/user-attachments/assets/8aa21fac-88c6-4aa0-9b78-e256f6d3b2c4" />
 
 ## Objetivo
 
-Este dashboard foi desenvolvido para fornecer uma visão consolidada do desempenho comercial da empresa, permitindo identificar quais produtos e marcas geram maior faturamento, acompanhar a evolução das vendas ao longo do tempo e compreender a distribuição geográfica dos resultados.
+Este dashboard foi desenvolvido para fornecer uma visão consolidada dos indicadores de Recursos Humanos, permitindo acompanhar o quadro de colaboradores, admissões, desligamentos e a distribuição dos funcionários por cidade, área de atuação e gênero.
 
-A proposta principal é responder duas perguntas fundamentais para o negócio:
+A proposta principal é responder duas perguntas fundamentais para a gestão de pessoas:
 
-1. O que gera mais receita?
-2. Onde essa receita está sendo gerada?
+1. Como está distribuída a força de trabalho da empresa?
+2. Como estão os indicadores de contratação, desligamento e turnover?
 
+## Processo de Construção
 
-O dashboard foi desenvolvido com foco em oferecer uma visão rápida e estratégica das vendas da empresa. Para isso, o layout foi dividido em quatro áreas principais:
+O dashboard foi desenvolvido com foco em oferecer uma visão rápida dos principais indicadores de RH. Para isso, o layout foi dividido em quatro áreas principais:
 
-1. Evolução das Vendas: 
-    * acompanha o faturamento e a quantidade vendida ao longo do tempo, permitindo identificar tendências e sazonalidades.
-2. KPIs: 
-    * destacam o faturamento total e o produto mais vendido do período.
-3. Vendas por Marca: 
-    * facilita a comparação entre marcas e a identificação das mais relevantes para o negócio.
-4. Distribuição Geográfica: 
-    * apresenta onde as vendas estão concentradas, auxiliando na análise de mercados e oportunidades de expansão.
+1. KPIs de RH:
+   * apresentam o total de contratações, colaboradores ativos, demissões e a taxa de turnover do período.
+2. Distribuição dos Colaboradores:
+   * exibe a quantidade de funcionários por cidade e a proporção entre colaboradores do gênero masculino e feminino.
+3. Filtros Interativos:
+   * permitem segmentar as informações por área de atuação e cidade, facilitando análises específicas.
+4. Hierarquia Organizacional:
+   * apresenta a distribuição dos colaboradores entre áreas e cidades, permitindo identificar onde a empresa concentra sua força de trabalho.
 
 
 ## Decisões de Design
 
-Foi adotada uma paleta em tons de roxo, azul e rosa, buscando transmitir uma aparência moderna e tecnológica, além de criar contraste suficiente para destacar indicadores importantes.
+Foi adotada uma paleta em tons de marrom e laranja para criar uma identidade visual moderna e destacar os indicadores mais importantes. O layout prioriza a visualização dos principais KPIs no topo, enquanto os gráficos inferiores permitem uma análise detalhada da composição dos colaboradores.
 
 ## Principais Insights Possíveis
 
 Com este dashboard é possível:
 
-* Monitorar a evolução do faturamento ao longo do tempo;
-* Identificar produtos de maior sucesso;
-* Comparar o desempenho entre marcas;
-* Avaliar a distribuição geográfica das vendas;
-* Detectar oportunidades de crescimento e expansão;
-* Apoiar decisões comerciais baseadas em dados.
+* Monitorar admissões, demissões e turnover;
+* Acompanhar o número de colaboradores ativos;
+* Analisar a distribuição dos funcionários por cidade e área;
+* Comparar a proporção entre colaboradores do gênero masculino e feminino;
+* Identificar concentrações da força de trabalho para apoiar decisões de gestão de pessoas.
