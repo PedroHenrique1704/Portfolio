@@ -36,6 +36,13 @@ Cada dashboard possui sua própria documentação contendo:
 
 <img width="1079" height="608" alt="image" src="https://github.com/user-attachments/assets/188018dc-e4d2-4f15-a895-67d1c7358ef9" />
 
+
+### Recursos Humanos
+
+[Visualização WEB](https://app.powerbi.com/view?r=eyJrIjoiOTAyYmZkYzMtYWQ5Ny00ZDk3LWI3ZDQtZGViMDkwOGQxODUwIiwidCI6IjJmNGMxYjM3LTk1MGEtNGRhZS05Njc1LWI3MTk4Y2E0NDVhZCJ9)
+
+<img width="1294" height="729" alt="7a83d645-7dac-4cb1-a604-c4a8b2639bfb" src="https://github.com/user-attachments/assets/8aa21fac-88c6-4aa0-9b78-e256f6d3b2c4" />
+
 ### Vendas
 
 [Visualização WEB](https://app.powerbi.com/view?r=eyJrIjoiNjYwZGI5ZWItNThiMS00YjI2LTg3OTctZmQ0MGZiNmU1NzNkIiwidCI6IjJmNGMxYjM3LTk1MGEtNGRhZS05Njc1LWI3MTk4Y2E0NDVhZCJ9)
